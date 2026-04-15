@@ -8,12 +8,23 @@
   "name": "gstreamer-demo",
   "dataLicense": "CC0-1.0",
   "documentNamespace": "https://example.com/spdx/gstreamer-demo-1.28.2",
-  "documentDescribes": ["SPDXRef-gstreamer"],
+  "documentDescribes": ["SPDXRef-demo-project"],
   "packages": [
+    {
+      "SPDXID": "SPDXRef-demo-project",
+      "name": "gstreamer-demo",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "git+https://github.com/doubleopen-project/gstreamer-demo.git@main",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
     {
       "SPDXID": "SPDXRef-gstreamer",
       "name": "gstreamer",
       "versionInfo": "1.28.2",
+      "packageFileName": "gstreamer-1.28.2.tar.gz",
       "downloadLocation": "https://github.com/GStreamer/gstreamer/archive/refs/tags/1.28.2.tar.gz",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -26,6 +37,13 @@
           "referenceLocator": "pkg:github/GStreamer/gstreamer@1.28.2"
         }
       ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-demo-project",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-gstreamer"
     }
   ]
 }
