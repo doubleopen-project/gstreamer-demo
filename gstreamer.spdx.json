@@ -1,0 +1,31 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-04-10T00:00:00Z",
+    "creators": ["Tool: manual"]
+  },
+  "name": "gstreamer-demo",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://example.com/spdx/gstreamer-demo-1.28.2",
+  "documentDescribes": ["SPDXRef-gstreamer"],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-gstreamer",
+      "name": "gstreamer",
+      "versionInfo": "1.28.2",
+      "downloadLocation": "git+https://github.com/GStreamer/gstreamer.git@1.28.2",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/GStreamer/gstreamer@1.28.2"
+        }
+      ]
+    }
+  ]
+}
