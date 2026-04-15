@@ -14,7 +14,7 @@
       "SPDXID": "SPDXRef-gstreamer",
       "name": "gstreamer",
       "versionInfo": "1.28.2",
-      "downloadLocation": "git+https://github.com/GStreamer/gstreamer.git@1.28.2",
+      "downloadLocation": "https://github.com/GStreamer/gstreamer/archive/refs/tags/1.28.2.tar.gz",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "LGPL-2.0-or-later",
